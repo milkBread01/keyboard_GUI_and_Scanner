@@ -1,0 +1,62 @@
+QMainWindow{
+    background-color:white;
+}
+
+QPushButton {
+    background-color: #56CCF2;
+    color: #333;
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 14px;
+
+}
+QPushButton:hover {
+    background-color:rgb(165, 175, 179);
+}
+#header {
+    background-color: #FAFAFA;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom: 2px solid #E9C46A;
+}
+#header QLabel {
+    color: black;
+    font-weight: bold;
+}
+
+#header QComboBox {
+    color: black;
+    background-color: #F0EAD6;
+}
+
+#header QPushButton {
+    color: black;
+    background-color: white;
+}
+#header QCheckBox{
+    color:black;
+
+}
+
+#body {
+    background-color: #FAFAFA;
+    padding: 20px;
+}
+
+#footer {
+    background-color: #FAFAFA;
+    padding: 15px;
+    border-top: 2px solid #E9C46A;
+}
+QLabel {
+    color: white;
+    font-size: 14pt;
+}
+
+QComboBox {
+    background-color:rgb(182, 37, 37);
+    font-size: 12pt;
+}
+
