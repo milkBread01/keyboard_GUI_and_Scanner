@@ -33,7 +33,7 @@ QPushButton:hover {
 
 #header QPushButton {
     color: black;
-    background-color: white;
+    background-color: #56CCF2;
 }
 #header QCheckBox{
     color:black;
@@ -60,3 +60,24 @@ QComboBox {
     font-size: 12pt;
 }
 
+#dialButton {
+    border-radius: 40px; /* Half of 80px size = perfect circle */
+    background-color: #D9E4F5;
+    border: 2px solid #AFCDE7;
+}
+
+#lcdScreen {
+    background-color: #8FD9FB;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid #00ACC1;
+}
+
+#lcdScreen:Hover {
+    background-color: #99B8C7;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid #022333;
+}
