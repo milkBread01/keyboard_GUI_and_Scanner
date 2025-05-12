@@ -1,12 +1,13 @@
 from PySide6.QtWidgets import (
-    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QComboBox, QPushButton, QGridLayout, QCheckBox, QSizePolicy, QDialog, QRadioButton, QButtonGroup, QLineEdit, QInputDialog, QMessageBox
+    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QComboBox, QPushButton, QGridLayout, QCheckBox, QSizePolicy, QDialog, QRadioButton, QButtonGroup, QLineEdit, QInputDialog, QMessageBox, QFileDialog
 )
+from PySide6.QtCore import Qt
 import sys
 import os
 import json
 
 class LCDconfigDialog(QDialog):
-    def __init__(self):
+    def __init__(self, media_data=None):
         super().__init__()
 
         self.setWindowTitle(f"Configure LCD Screen")
@@ -14,54 +15,59 @@ class LCDconfigDialog(QDialog):
 
         self.result = {}  # Store config result
 
-        layout = QVBoxLayout()
-        self.type_group = QButtonGroup(self)
-        radio_layout = QHBoxLayout()
-        for x, option in enumerate(["Image","GIF","Video"]):
-            btn = QRadioButton(option)
-            if x==0:
-                btn.setChecked(True)
-            self.type_group.addButton(btn,x)
-            radio_layout.addWidget(btn)
-        layout.addLayout(radio_layout)
+        layout=QVBoxLayout()
 
-        self.image_input = QLineEdit()
-        self.GIF_input = QLineEdit()
-        self.Video_input = QLineEdit()
+        self.add_button = QPushButton("+\nAdd Media")
+        self.add_button.setFixedSize(150,100)
+        self.add_button.clicked.connect(self.open_file_dialog)
+        layout.addWidget(self.add_button, alignment=Qt.AlignHCenter)
 
-        layout.addWidget(QLabel("Image Path: "))
-        layout.addWidget(self.image_input)
+        self.path_field = QLineEdit()
+        self.path_field.setReadOnly(True)
 
-        layout.addWidget(QLabel("GIF Path: "))
-        layout.addWidget(self.GIF_input)
+        layout.addWidget(QLabel("File Path:"))
+        layout.addWidget(self.path_field)
 
-        layout.addWidget(QLabel("Video Path: "))
-        layout.addWidget(self.Video_input)
-
+        # buttons
         button_layout = QHBoxLayout()
-        save_btn = QPushButton("Save Key")
+        save_btn = QPushButton("Save")
         cancel_btn = QPushButton("Cancel")
-
         save_btn.clicked.connect(self.save)
         cancel_btn.clicked.connect(self.reject)
-
         button_layout.addWidget(save_btn)
         button_layout.addWidget(cancel_btn)
 
         layout.addLayout(button_layout)
-
-
-
         self.setLayout(layout)
+
+        if media_data:
+            self.path_field.setText(media_data.get("VALUE", ""))
+    
     def save(self):
-        selected_type = self.type_group.checkedButton().text().lower()
+        path = self.path_field.text()
+        ext = os.path.splitext(path)[1].lower()
+
+        if ext in [".gif"]:
+            media_type = "gif"
+        elif ext in [".mp4", ".mov", ".avi", ".webm"]:
+            media_type = "video"
+        elif ext in [".png", ".jpg", ".jpeg",".svg"]:
+            media_type = "image"
+        else:
+            media_type = "unknown"
+
         self.result = {
-            "type": selected_type,
-            "image":self.image_input.text(),
-            "gif":self.GIF_input.text(),
-            "video":self.Video_input()
+            "TYPE":media_type,
+            "VALUE":path
         }
         self.accept()
+
+    def open_file_dialog(self):
+        file_path, _ = QFileDialog.getOpenFileName(
+            self, "Select Media File", "", "Media Files (*.png *.jpg *.jpeg *.gif *.mp4 *.mov *.avi *.webm)"
+        )
+        if file_path:
+            self.path_field.setText(file_path)
 
 class KeyConfigDialog(QDialog):
     def __init__(self, key_label, key_data=None):
@@ -97,7 +103,7 @@ class KeyConfigDialog(QDialog):
         self.web_input = QLineEdit()
         self.command_input = QLineEdit()
 
-        """  """
+        """ load values into text field """
 
         # If existing key data was passed, fill it
         if key_data:
@@ -389,32 +395,12 @@ class MainWindow(QMainWindow):
         main_layout.addWidget(keypad_container)
 
     def lcd_clicked(self):
-        # Calls the get_current+profile() methid from ProfileManager class to retrieve current active profile. profile contains a dictionary with name, keys, and value 
         profile = self.profile_manager.get_current_profile()
-
-        # storing value for media file key of current profile
-        user_file = profile["media"]
-        
-        # opening dialog
-        dialog = LCDconfigDialog()
+        dialog = LCDconfigDialog(profile.get("media", None))
 
         if dialog.exec():
-            """ 
-                "type": image,gif,video,
-                "image": possible path value,
-                "gif": possible path value,
-                "video": possible path value
-            """
-            result=dialog.result
+            profile["media"] = dialog.result
 
-            profile["keys"]["media"]["TYPE"] = result["type"]
-
-            if result["type"] == "image":
-                profile["keys"]["media"]["VALUE"] = result["image"]
-            elif result["type"] == "gif":
-                profile["keys"]["media"]["VALUE"] = result["gif"]
-            elif result["type"]  == "video":
-                profile["keys"]["media"]["VALUE"] = result["video"]
 
     # argument: grid position of button (e.g 3-3, 1-2, etc)
     def keys_clicked(self, key):

@@ -44,10 +44,15 @@ class ProfileManager:
                 "4-4": {"LABEL": "€", "TYPE": "character", "VALUE": "€"}
             }
 
+            blank_media = {
+                "TYPE": "None",
+                "VALUE": "empty"
+            }
+
             self.profiles["Default"] = {
                 "name": "Default",
                 "keys": default_keys,
-                #"lcd": default_file_path
+                "media": blank_media,
                 "primary": True
             }
 
@@ -75,9 +80,14 @@ class ProfileManager:
                     "TYPE": "character",
                     "VALUE": label
                 }
+            blank_media = {
+                "TYPE": "None",
+                "VALUE": "Empty"
+            }
 
             self.profiles[profile_name] = {
                 "name": profile_name,
+                "media":blank_media,
                 "keys": blank_keys,
                 "primary": False
             }
