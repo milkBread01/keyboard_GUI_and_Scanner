@@ -1,0 +1,487 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
+  <diagram name="Page-1" id="Y9WAvZNud2Gu3SNwz_0c">
+    <mxGraphModel dx="8565" dy="2858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L75Hyx3zuK4XDfKE062m-144" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1710" y="1340" width="580" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-129" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1960" y="2400" width="890" height="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-122" target="L75Hyx3zuK4XDfKE062m-124" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-122" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1580" y="2910" width="440" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-82" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2830" y="2420" width="450" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-3140" y="1350" width="730" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-1" value="Main()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-6" target="L75Hyx3zuK4XDfKE062m-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-6" value="start app &amp;amp; load sylesheet&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;call &lt;span style=&quot;background-color: rgb(255, 102, 102);&quot;&gt;MainWindow()&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="160" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-7" target="L75Hyx3zuK4XDfKE062m-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-7" value="MainWindow()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-9" target="L75Hyx3zuK4XDfKE062m-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-9" target="L75Hyx3zuK4XDfKE062m-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-9" target="L75Hyx3zuK4XDfKE062m-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-9" target="L75Hyx3zuK4XDfKE062m-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-9" target="L75Hyx3zuK4XDfKE062m-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-9" target="L75Hyx3zuK4XDfKE062m-102" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-9" value="&lt;div&gt;- import ProfileManager class&lt;/div&gt;&lt;div&gt;- create &#39;profile_manager&#39; object which is defined in the&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; ProfileManager class as having the attributes:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - loaded profile data&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - current profile name&lt;/div&gt;&lt;div&gt;- initialize buttons for GUI as &#39;key_buttons&#39; a dictionary&lt;/div&gt;&lt;div&gt;- initialize dropdown menu as &#39;dropdown&#39; using &#39;QComboBox()&#39;&lt;/div&gt;&lt;div&gt;- if dropdown menu is selected and an entry is selected call the&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&#39;change_profile()&#39; method&lt;/div&gt;&lt;div&gt;- set the main window title and dimensions &amp;amp; position&lt;/div&gt;&lt;div&gt;- set main window layout as vertical&lt;/div&gt;&lt;div&gt;- call different methods: &lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;header()&lt;/span&gt;, &lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;mainBody()&lt;/span&gt;, and &lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;footer()&lt;/span&gt; to load the&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;respective content&lt;/div&gt;&lt;div&gt;- call the &#39;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;refresh_profile_dropdown()&lt;/span&gt;&#39; method and the&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&#39;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;update_key_labels()&lt;/span&gt;&#39; to append the list of existing profiles in the&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;dropdown menu and the button labels&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="178" y="460" width="475" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-12" value="Constructor" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="183" y="400" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-13" value="Header()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-2090" y="780" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NkVGBoX0CyrwW3oy6tE-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L75Hyx3zuK4XDfKE062m-14" target="6NkVGBoX0CyrwW3oy6tE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-14" value="mainBody()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-980" y="770" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-15" value="footer()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="770" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-16" value="refresh_profile_dropdown()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="770" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-17" value="update_key_labels()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="770" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-9" target="L75Hyx3zuK4XDfKE062m-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-9" target="L75Hyx3zuK4XDfKE062m-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-25" target="L75Hyx3zuK4XDfKE062m-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-32" target="L75Hyx3zuK4XDfKE062m-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-34" target="L75Hyx3zuK4XDfKE062m-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-25" target="L75Hyx3zuK4XDfKE062m-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-25" value="&lt;div&gt;- create container for header widgets and assign ID&lt;div&gt;- assign container a Grid pattern with &#39;QGridLayout()&lt;/div&gt;&lt;div&gt;- Create text label with content&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&#39;Profile:&#39;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- create push button &#39;Set as Active&#39; and scan if clicked. If the button is clicked then call the method &#39;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;set_active_profile()&lt;/span&gt;&#39;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- create toggle &#39;light&#39; and set object name as &#39;themeToggle&#39;. set as True by default&lt;/div&gt;&lt;div&gt;- access dropdown and set it to QComboBox() creating the dropdown menu&lt;/div&gt;&lt;div&gt;- add items to the dropdown menu using .addItems method. The content of the dropdown menu is set by accessing the variable &#39;profile_manager&#39; and calling the &#39;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;get_profile_names()&lt;/span&gt;&#39; method from the ProfileManager class and appending the name &#39;+ New Profile&#39; to the dropdown menu list&lt;/div&gt;&lt;div&gt;- scan dropdown, check if entity selected, if selected then call the &lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;change_profile()&lt;/span&gt; method.&lt;/div&gt;&lt;div&gt;- add widgets to the header_layout variable and specifying their relative placement&lt;/div&gt;&lt;div&gt;- add header_layout to header_container&lt;/div&gt;&lt;div&gt;- add header_container to main_layout&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-2090" y="840" width="360" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-26" target="L75Hyx3zuK4XDfKE062m-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-26" value="get_profile_names()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-2260" y="1350" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-28" target="L75Hyx3zuK4XDfKE062m-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2850" y="1370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-28" value="set_active_profile()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-3140" y="1290" width="750" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-30" target="L75Hyx3zuK4XDfKE062m-83" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-30" value="change_profile()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-1710" y="1280" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-32" value="if &#39;set as active&#39; button clicked" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2360" y="980" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-25" target="L75Hyx3zuK4XDfKE062m-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1730" y="1040" as="sourcePoint" />
+            <mxPoint x="-1555" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-34" value="dropdown menu element clicked" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1650" y="1070" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-37" target="L75Hyx3zuK4XDfKE062m-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-46" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L75Hyx3zuK4XDfKE062m-42" vertex="1" connectable="0">
+          <mxGeometry x="0.0359" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-37" target="L75Hyx3zuK4XDfKE062m-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-47" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L75Hyx3zuK4XDfKE062m-45" vertex="1" connectable="0">
+          <mxGeometry x="-0.3333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-37" value="if selected_profile == &quot;+ New Profile&quot;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-3120" y="1465" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-38" target="L75Hyx3zuK4XDfKE062m-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-38" value="selected_profile set to current dropdown menu text" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-3075" y="1360" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-39" value="Return" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-3040" y="1645" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-44" target="L75Hyx3zuK4XDfKE062m-53" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2580" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-59" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L75Hyx3zuK4XDfKE062m-50" vertex="1" connectable="0">
+          <mxGeometry x="-0.1242" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-44" target="L75Hyx3zuK4XDfKE062m-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2780" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-58" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L75Hyx3zuK4XDfKE062m-51" vertex="1" connectable="0">
+          <mxGeometry x="0.2336" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-44" value="if selected_profile == current_profile_name" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2900" y="1595" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-52" value="&lt;div&gt;display message&lt;/div&gt;&lt;div&gt;&quot;{selected_profile} already active&quot;&lt;/div&gt;Return" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2840" y="1810" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-53" target="L75Hyx3zuK4XDfKE062m-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-53" value="confirm = QMessageBox.question(&lt;div&gt;self,&lt;/div&gt;&lt;div&gt;&quot;set active profile&quot;,&lt;/div&gt;&lt;div&gt;&quot;set {selected_profile} as active&quot;,&lt;/div&gt;&lt;div&gt;QMessageBox.Yes | QMessageBox.No&lt;br&gt;&lt;/div&gt;&lt;div&gt;)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2690" y="1770" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-54" target="L75Hyx3zuK4XDfKE062m-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-54" value="if confirm == QMessageBox.Yes" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2655" y="1950" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.027;entryY=0.489;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="L75Hyx3zuK4XDfKE062m-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1727.5" y="2166" as="sourcePoint" />
+            <mxPoint x="810" y="851" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="2166" />
+              <mxPoint x="560" y="800" />
+              <mxPoint x="807" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.998;exitY=0.789;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-56" target="L75Hyx3zuK4XDfKE062m-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1670" y="2180" as="sourcePoint" />
+            <mxPoint x="1379" y="849" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1728" y="2164" />
+              <mxPoint x="579" y="2164" />
+              <mxPoint x="579" y="730" />
+              <mxPoint x="1330" y="730" />
+              <mxPoint x="1330" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-56" value="profile_manager.&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;switch_profile&lt;/span&gt;(selected_profile)&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;refresh_profile_dropdown()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;update_key_labels()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;QMessageBox.information &quot;selected_profile now active&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2712.5" y="2080" width="275" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-62" target="L75Hyx3zuK4XDfKE062m-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-62" value="switch_profile()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-2830" y="2360" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.53;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-56" target="L75Hyx3zuK4XDfKE062m-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-65" value="return list(self.profiles.keys)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2260" y="1410" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-67" target="L75Hyx3zuK4XDfKE062m-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-78" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L75Hyx3zuK4XDfKE062m-77" vertex="1" connectable="0">
+          <mxGeometry x="-0.3358" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-67" target="L75Hyx3zuK4XDfKE062m-79" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-81" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L75Hyx3zuK4XDfKE062m-80" vertex="1" connectable="0">
+          <mxGeometry x="-0.0333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-67" value="if name in profiles" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2750" y="2460" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-73" target="L75Hyx3zuK4XDfKE062m-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-73" value="for current_profile in&amp;nbsp;&lt;div&gt;profile.values()&lt;/div&gt;" style="triangle;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-2715" y="2580" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.003;exitY=0.574;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-74" target="L75Hyx3zuK4XDfKE062m-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-74" value="profiles[name][&quot;primary&quot;] = True&lt;div&gt;current_profile_name = name&lt;/div&gt;&lt;div&gt;_write_to_file()&lt;/div&gt;&lt;div&gt;return True&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2605" y="2800" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-79" value="return False" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2550" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-83" target="L75Hyx3zuK4XDfKE062m-132" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-83" value="if name == &quot;+ New Profile&quot;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1675" y="1370" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-85" target="L75Hyx3zuK4XDfKE062m-147" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-149" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L75Hyx3zuK4XDfKE062m-148" vertex="1" connectable="0">
+          <mxGeometry x="-0.1848" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-85" value="if profile_manager.&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;add_profiles&lt;/span&gt;(new_name)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1705" y="1775" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-96" target="L75Hyx3zuK4XDfKE062m-97" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-96" value="save_profiles(profile_name)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-1960" y="2340" width="910" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-97" target="L75Hyx3zuK4XDfKE062m-111" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-114" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L75Hyx3zuK4XDfKE062m-112" vertex="1" connectable="0">
+          <mxGeometry x="-0.3902" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-97" target="L75Hyx3zuK4XDfKE062m-113" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-116" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L75Hyx3zuK4XDfKE062m-115" vertex="1" connectable="0">
+          <mxGeometry x="-0.2752" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-97" value="if profile_name ==&amp;nbsp;&lt;div&gt;&quot;__DEFAILT PROFILE__&quot;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1833.75" y="2480" width="212.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-99" value="Constructor" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="430" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-102" target="L75Hyx3zuK4XDfKE062m-99" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-102" value="ProfileManager" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1790" y="340" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-104" value="profile_file = &quot;saved_profiles.txt&quot;&lt;div&gt;profiles = {}&lt;/div&gt;&lt;div&gt;current_profile_name = None&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;load_profiles()&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1865" y="520" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-105" value="load_profiles()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="660" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-111" target="L75Hyx3zuK4XDfKE062m-126" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-111" value="default_keys = {default_valuies}&lt;div&gt;blank_media =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{&quot;TYPE&quot;: &quot;None&quot;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;VALUE&quot;: &quot;empty&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;profiles[&quot;Default&quot;] = {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;name&quot;: &quot;Default&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;keys&quot;: default_keys&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&quot;media&quot;: blank_media&lt;/div&gt;&lt;div&gt;&quot;primary&quot;: True&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1870" y="3270" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-113" target="L75Hyx3zuK4XDfKE062m-117" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-113" value="&lt;div&gt;default_positions = [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;&quot;0-0&quot;, &quot;0-1&quot;, &quot;0-2&quot;, &quot;0-3&quot;, &quot;0-4&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;1-0&quot;, &quot;1-1&quot;, &quot;1-2&quot;, &quot;1-3&quot;, &quot;1-4&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;2-0&quot;, &quot;2-1&quot;, &quot;2-2&quot;, &quot;2-4&quot;,&amp;nbsp; &amp;nbsp;# Skip 2-3&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;3-0&quot;, &quot;3-1&quot;, &quot;3-2&quot;, &quot;3-3&quot;, &quot;3-4&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;4-0&quot;, &quot;4-2&quot;, &quot;4-4&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# Skip 4-1, 4-3&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ]&lt;/div&gt;&lt;div&gt;labels = [&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;6&quot;, &quot;7&quot;, &quot;8&quot;, &quot;9&quot;, &quot;10&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;11&quot;, &quot;12&quot;, &quot;13&quot;, &quot;14&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;15&quot;, &quot;16&quot;, &quot;17&quot;, &quot;18&quot;, &quot;19&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;20&quot;, &quot;21&quot;, &quot;22&quot;&lt;/div&gt;&lt;div&gt;]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;blank_keys = {}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-1520" y="2610" width="270" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-117" target="L75Hyx3zuK4XDfKE062m-118" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-117" value="for INDEX, ELEMENT in zip(default_positions, labels)" style="triangle;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-1520" y="2920" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.001;exitY=0.547;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-118" target="L75Hyx3zuK4XDfKE062m-117" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-118" value="blank_keys[INDEX]={&lt;div&gt;&quot;LABEL&quot;: ELEMENT&lt;/div&gt;&lt;div&gt;&quot;TYPE&quot;: &quot;character&quot;&lt;/div&gt;&lt;div&gt;&quot;VALUE&quot;: ELEMENT&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1300" y="3040" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-124" target="L75Hyx3zuK4XDfKE062m-126" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-124" value="blank_media = DICT&lt;div&gt;profiles[profile_name] = {&lt;/div&gt;&lt;div&gt;&quot;name&quot;: profile_name&lt;/div&gt;&lt;div&gt;&quot;media&quot;: blank_media&lt;/div&gt;&lt;div&gt;&quot;keys&quot;: blank_keys&lt;/div&gt;&lt;div&gt;&quot;primary&quot;: False&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1480" y="3220" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.551;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-126" target="L75Hyx3zuK4XDfKE062m-131" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-930" y="2300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-980" y="3560" />
+              <mxPoint x="-980" y="2280" />
+              <mxPoint x="-713" y="2280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-126" value="&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;_write_to_file()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1600" y="3530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-130" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L75Hyx3zuK4XDfKE062m-91" target="L75Hyx3zuK4XDfKE062m-96" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1550" y="2020" as="sourcePoint" />
+            <mxPoint x="-1500" y="1970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-131" value="_write_to_file()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-900" y="2340" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-132" target="L75Hyx3zuK4XDfKE062m-141" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-132" value="new_name, ok = QInputDialog.getText(&quot;EnterProfile Name&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1690" y="1510" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-95" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2230" y="1935" width="450" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="L75Hyx3zuK4XDfKE062m-135" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1561.25" y="1905" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-139" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L75Hyx3zuK4XDfKE062m-136" vertex="1" connectable="0">
+          <mxGeometry x="-0.1404" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-86" target="L75Hyx3zuK4XDfKE062m-87" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-86" value="add_profiles(profile_name)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-2225" y="1875" width="465" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-87" target="L75Hyx3zuK4XDfKE062m-88" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-90" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L75Hyx3zuK4XDfKE062m-89" vertex="1" connectable="0">
+          <mxGeometry x="0.1857" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-87" target="L75Hyx3zuK4XDfKE062m-91" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-93" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L75Hyx3zuK4XDfKE062m-92" vertex="1" connectable="0">
+          <mxGeometry x="-0.2935" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-87" value="if profile_name in profiles" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2215" y="1985" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-88" value="print(&quot;Profile Exists&quot;)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;return False&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2156" y="2165" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-91" value="&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;save_profiles&lt;/span&gt;(profile_name)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;return True&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1965" y="2135" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-109" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.558;entryY=-0.047;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="L75Hyx3zuK4XDfKE062m-86" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1706.25" y="1840" as="sourcePoint" />
+            <mxPoint x="-1280" y="1735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-135" value="refresh_profile_dropdown&lt;div&gt;dropdown.setCurrentText(new_name&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1685.62" y="2020" width="250.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L75Hyx3zuK4XDfKE062m-141" target="L75Hyx3zuK4XDfKE062m-85" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-150" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L75Hyx3zuK4XDfKE062m-142" vertex="1" connectable="0">
+          <mxGeometry x="-0.0484" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-141" value="if ok and new_name" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1680" y="1595" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-147" value="QMessageBox.warning(&quot;Profile Exists&quot;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1340" y="1810" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L75Hyx3zuK4XDfKE062m-151" value="open profile_file&lt;div&gt;json.dump(profiles, profile_file, indent=4)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-900" y="2400" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NkVGBoX0CyrwW3oy6tE-2" value="- keypad_container created using QWidget(). Object name set to &quot;body&quot;. Will contain the all main body content (buttons, LCD screen, Dial)&lt;div&gt;&lt;br&gt;&lt;div&gt;- top_section created using QWidget()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- top_layout set to QHBoxLayout()&lt;/div&gt;&lt;div&gt;- top_section layout set to top_layout&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- lcd_button created and dimensions set. position set to fixed. button appended to top_layout&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- LCD button scanned checking for click event. if clicked call lcd_clicked() method&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- layout spacer added between LCD screen button and the key buttons&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="220" width="260" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="6NkVGBoX0CyrwW3oy6tE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6NkVGBoX0CyrwW3oy6tE-3" target="6NkVGBoX0CyrwW3oy6tE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NkVGBoX0CyrwW3oy6tE-3" value="top_section QWidget() CREATED&lt;div&gt;top_layout QHBoxLayout() CREATED&lt;/div&gt;&lt;div&gt;lcd_button QPushButton() CREATED&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="850" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6NkVGBoX0CyrwW3oy6tE-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6NkVGBoX0CyrwW3oy6tE-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-690" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6NkVGBoX0CyrwW3oy6tE-4" value="lcd_button.clicked.connect(self.lcd_button)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-975" y="980" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6NkVGBoX0CyrwW3oy6tE-7" value="dial_button QPushButton() CREATED&lt;div&gt;grid_layout QGridLayout() CREATED&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="1000" width="280" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
