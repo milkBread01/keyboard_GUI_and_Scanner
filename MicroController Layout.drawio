@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
   <diagram name="Page-1" id="1SPhpuADm64l0Hxg2bN5">
-    <mxGraphModel dx="2326" dy="1916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2503" dy="2014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,11 @@
         <mxCell id="7xy5X7pBSjGH1rJuHNb_-3" value="Class Encoder" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="120" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="KJ3M8dmH54Ed4lHhk8dp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7xy5X7pBSjGH1rJuHNb_-4" target="KJ3M8dmH54Ed4lHhk8dp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7xy5X7pBSjGH1rJuHNb_-4" value="Class ProfileManager" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-210" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="-190" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7xy5X7pBSjGH1rJuHNb_-5" value="Class LCDController" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="110" width="120" height="60" as="geometry" />
@@ -24,6 +27,9 @@
         </mxCell>
         <mxCell id="7xy5X7pBSjGH1rJuHNb_-8" value="Class KeyScanner" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1220" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ3M8dmH54Ed4lHhk8dp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7xy5X7pBSjGH1rJuHNb_-9" target="7xy5X7pBSjGH1rJuHNb_-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7xy5X7pBSjGH1rJuHNb_-9" value="Class CreatedProfiles" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-570" y="120" width="120" height="60" as="geometry" />
