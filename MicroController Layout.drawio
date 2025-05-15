@@ -41,7 +41,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7xy5X7pBSjGH1rJuHNb_-9" value="Class CreatedProfiles" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-570" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="-740" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7xy5X7pBSjGH1rJuHNb_-10" value="header" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="-1020" y="250" width="680" height="40" as="geometry" />
